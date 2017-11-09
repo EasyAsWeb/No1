@@ -9,9 +9,8 @@
 
 	// Check if mobile phone number has been entered
 	if (!isset($_POST['phone'])) {
-		$errors['phone'] = 'Please enter your name';
+		$errors['phone'] = 'Please enter your phone';
 	}
-
 
 	// Check if email has been entered and is valid
 	if (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
@@ -43,20 +42,17 @@
 		die();
 	}
 
-
-
 	$name = $_POST['name'];
     $phone = $_POST['phone'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$to = 'info@example.com';  // please change this email id
-	$subject = 'Contact Form : Customer Quote No1 Finance';
+	$to = 'aleon1220@gmail.com';// please change this email id
+	$subject = 'Contact Form : Customer Quote to No1 Finance';
 
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	$body = "From: $name\n Phone:$phone\n E-Mail: $email\n Message:\n $message";
 
 	$headers = "From: ".$from;
-
 
 	//send the email
 	$result = '';
