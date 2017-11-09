@@ -1,5 +1,5 @@
 #windows file config
-.ini
+*.ini
 
 #.config file for eclipse projects
 .settings
