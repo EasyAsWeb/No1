@@ -47,7 +47,7 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$to = 'aleon1220@gmail.com';// please change this email id
+	$to = 'raj@easyasweb.co.nz';// please change this email id
 	$subject = 'Contact Form : Customer Quote to No1 Finance';
 
 	$body = "From: $name\n Phone:$phone\n E-Mail: $email\n Message:\n $message";
