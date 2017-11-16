@@ -47,8 +47,8 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$to = 'raj@easyasweb.co.nz';// please change this email id
-	$subject = 'Contact Form : Customer Quote to No1 Finance';
+	$to = 'enquiry@no1finance.co.nz';// please change this email id
+	$subject = 'Customer Enquiry from the No.1 Finance Website';
 
 	$body = "From: $name\n Phone:$phone\n E-Mail: $email\n Message:\n $message";
 
@@ -69,7 +69,7 @@
 	$result = '';
 	$result .= '<br><div class="alert alert-danger alert-dismissible" role="alert">';
 	$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-	$result .= 'Something bad happend during sending this message. Please try again later or contact us at +64 09 818 8253';
+	$result .= 'Something went wrong during sending this message. Please try again later or contact us at 021-663-499';
 	$result .= '</div>';
 
 	echo $result;
