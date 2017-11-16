@@ -715,11 +715,11 @@ a,
 
 .btn.btn-d:hover,
 .btn.btn-d:focus {
-  background: #0EB9CB111;
+  background: #0EB9CB
 }
 
 .btn.btn-b {
-  background: #0EB9CB111;
+  background: #0EB9CB;
   color: #fff;
 }
 
@@ -1245,7 +1245,7 @@ General Styles - Owlcarousel
   border-radius: 0;
   z-index: 1000;
   font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 3px;
   font-size: 11px;
   transition: background, padding 0.4s ease-in-out 0s;
@@ -1264,7 +1264,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .navbar-brand {
-  letter-spacing: 4px;
+  letter-spacing: 0px;
   font-weight: 400;
   font-size: 22px;
   color: #fff;
