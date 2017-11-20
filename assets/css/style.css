@@ -10,7 +10,7 @@ html {
 body {
   background: #fff;
   font: 400 12px/1.8 "Open Sans", sans-serif;
-  color: #666;
+  color: #000;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -2053,7 +2053,7 @@ Google map
 .testimonial-text {
   text-align: center;
   font-style: normal;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .testimonial-caption {
