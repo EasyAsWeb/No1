@@ -214,7 +214,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             } else {
                 $('.navbar-custom .navbar-nav > li.dropdown, .navbar-custom li.dropdown > ul > li.dropdown').unbind('mouseenter mouseleave');
                 $('.navbar-custom [data-toggle=dropdown]').not('.binded').addClass('binded').on('click', function(event) {
-                    event.preventDefault();
+                    //event.preventDefault();
                     event.stopPropagation();
                     $(this).parent().siblings().removeClass('open');
                     $(this).parent().siblings().find('[data-toggle=dropdown]').parent().removeClass('open');
